@@ -3,6 +3,5 @@ document.addEventListener("DOMContentLoaded", () => {
   let myForm = document.querySelector("#create-task-form");
   myForm.addEventListener("submit", function (event){
     event.preventDefault();
-    alert('Hombre you suck big time')
   })
 });
